@@ -1,4 +1,4 @@
-class jdk_install {
+class upg::jdk_install {
     $repo = hiera('forms_upg::staging_dir','/software')
     $filename = hiera('forms_upg::jdk_install::installer', "jdk-8u131-linux-x64.tar.gz")
     $install_path = hiera('forms_upg::jdk_install::install_dest', "/opt/app/oracle/java")
