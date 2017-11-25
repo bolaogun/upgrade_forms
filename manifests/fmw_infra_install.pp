@@ -1,4 +1,4 @@
-class fmw_infra_install {
+class upg::fmw_infra_install {
     $repo = hiera('forms_upg::staging_dir','/software')
     $filename = hiera('forms_upg::fmw_infra_install::installer', "fmw_12.2.1.3.0_infrastructure_Disk1_1of1.zip")
     $extract_to = hiera('forms_upg::fmw_infra_install::extract_to', '/tmp')
