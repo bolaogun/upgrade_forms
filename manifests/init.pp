@@ -43,6 +43,6 @@
 # Copyright 2017 Your name here, unless otherwise noted.
 #
 class upg {
-
-
+  include jdk_install
+  include fmw_infra_install
 }
